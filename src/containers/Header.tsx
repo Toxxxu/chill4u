@@ -13,19 +13,19 @@ export const Header: React.FC = () => {
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link
             className="text-sm font-medium hover:underline underline-offset-4"
-            href="#"
+            href="/places"
           >
             Місця
           </Link>
           <Link
             className="text-sm font-medium hover:underline underline-offset-4"
-            href="#"
+            href="/about-us"
           >
             Про нас
           </Link>
           <Link
             className="text-sm font-medium hover:underline underline-offset-4"
-            href="#"
+            href="/contacts"
           >
             Контакти
           </Link>
