@@ -15,7 +15,7 @@ import Link from "next/link";
 export default function Contacts() {
   return (
     <main className="flex-1 container mx-auto px-6 py-8">
-      <h1 className="text-3xl font-bold mb-6">Зв'яжіться з нами</h1>
+      <h1 className="text-3xl font-bold mb-6">Зв&apos;яжіться з нами</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <Card>
           <CardHeader>
@@ -25,7 +25,7 @@ export default function Contacts() {
             <form className="space-y-4">
               <div className="space-y-2">
                 <label htmlFor="name" className="text-sm font-medium">
-                  Ім'я
+                  Ім&apos;я
                 </label>
                 <Input id="name" placeholder="Ваше ім'я" />
               </div>

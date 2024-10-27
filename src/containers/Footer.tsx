@@ -40,7 +40,9 @@ export const Footer = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-2">Зв'яжіться з нами</h3>
+            <h3 className="text-lg font-semibold mb-2">
+              Зв&apos;яжіться з нами
+            </h3>
             <ul className="space-y-1 text-sm">
               <li className="flex items-center">
                 <MapPin className="h-4 w-4 mr-2" /> вул. Подорожня 123, Місто,
