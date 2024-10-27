@@ -5,20 +5,21 @@ export default function Home() {
   return (
     <main className="flex-1">
       <section
-        className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-cover bg-center"
+        className="w-full h-screen py-12 md:py-24 lg:py-32 xl:py-48 bg-cover bg-center bg-opacity-50"
         style={{
-          backgroundImage: 'url("/placeholder.svg?height=600&width=800")',
+          backgroundImage:
+            'url("https://images.pexels.com/photos/1386110/pexels-photo-1386110.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")',
         }}
       >
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-white">
-                Discover Your Next Adventure
+                Відкрийте свою наступну пригоду
               </h1>
               <p className="mx-auto max-w-[700px] text-white md:text-xl">
-                Explore the world's most beautiful destinations and create
-                unforgettable memories.
+                Досліджуйте найкрасивіші місця світу та створюйте незабутні
+                спогади.
               </p>
             </div>
           </div>
@@ -27,21 +28,24 @@ export default function Home() {
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100">
         <div className="container px-4 md:px-6">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">
-            Featured Destinations
+            Популярні місця
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {[
               {
-                name: "Paris",
-                image: "/placeholder.svg?height=400&width=300",
+                name: "Готель Ужгород",
+                image:
+                  "https://hoteluzhgorod.com/wp-content/uploads/2024/03/20240322_001-480x300.webp",
               },
               {
-                name: "Tokyo",
-                image: "/placeholder.svg?height=400&width=300",
+                name: "Готель Прага",
+                image:
+                  "https://lh3.googleusercontent.com/p/AF1QipPbOe5bHDTJEuDZ81jRYsSuuMll9miwD2GZ7EuI=s1360-w1360-h1020",
               },
               {
-                name: "New York",
-                image: "/placeholder.svg?height=400&width=300",
+                name: "Готель Кілікія",
+                image:
+                  "https://lh3.googleusercontent.com/p/AF1QipO3jN0sBsYK0v6LUJK6X7PNzqbty_G4Yye9h298=s1360-w1360-h1020",
               },
             ].map((destination) => (
               <div
@@ -74,15 +78,15 @@ export default function Home() {
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Ready for Your Next Trip?
+                Готові до наступної подорожі?
               </h2>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Book your adventure today and get exclusive deals on flights,
-                hotels, and experiences.
+                Забронюйте свою пригоду сьогодні та отримайте ексклюзивні
+                пропозиції на рейси, готелі та враження.
               </p>
             </div>
             <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
-              Book Now
+              Забронювати зараз
             </Button>
           </div>
         </div>
