@@ -1,7 +1,7 @@
-"use client"; // This is a client component
+"use client";
 
 import React, { useState, use } from 'react';
-import { Star, Wifi, Tv, Coffee, MapPin, ChevronLeft, ChevronRight } from 'lucide-react'
+import { Star, MapPin, ChevronLeft, ChevronRight } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import places from "@/data/hotels.json";
@@ -9,17 +9,18 @@ import places from "@/data/hotels.json";
 function Places ({ params }: { params: Promise<{ id: string }> }) {
 	const { id } = use(params);
 	const hotelData = places.hotels[id - 1]
-	console.log(hotelData)
 	const [currentImageIndex, setCurrentImageIndex] = useState(0)
 	const images = hotelData.images
 
-	const nextImage = () => {
-		setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length)
-	}
+  const nextImage = () => {
+    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
 
-	const prevImage = () => {
-		setCurrentImageIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length)
-	}
+  const prevImage = () => {
+    setCurrentImageIndex(
+      (prevIndex) => (prevIndex - 1 + images.length) % images.length
+    );
+  };
 
 	return (
 		<div className="container mx-auto px-4 py-8">
@@ -85,4 +86,4 @@ function Places ({ params }: { params: Promise<{ id: string }> }) {
 	)
 }
 
-export default Places
+export default Places;
