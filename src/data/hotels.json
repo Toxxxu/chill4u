@@ -1,0 +1,267 @@
+{
+  "hotels": [
+    {
+      "title": "Готель «Прага»",
+      "description": "Розкішний готель з ресторанами, спа і басейном.",
+      "long_description": "Готель «Прага» пропонує номери високого класу з виглядом на мальовничі краєвиди Ужгорода. У закладі є сучасний спа-центр, басейн та кілька ресторанів з міжнародною кухнею. Ідеально підходить як для ділових поїздок, так і для романтичних відпочинків.",
+      "rating": 9.2,
+      "images": [
+        "https://www.hotel-praha.com.ua/wp-content/uploads/2020/05/praha-panorama.jpg",
+        "https://www.hotel-praha.com.ua/wp-content/uploads/2020/05/reception.jpg",
+        "https://www.hotel-praha.com.ua/wp-content/uploads/2020/05/praha-bowling-club-8.jpg"
+      ],
+      "phone": "+380123456789",
+      "mail": "contact@praga-hotel.ua",
+      "location": "вул. Капушанська, 5"
+    },
+    {
+      "title": "Готель «Емігранд»",
+      "description": "Комфортний сучасний готель у центрі Ужгорода.",
+      "long_description": "Сучасний готель в самому серці міста. Зручне розташування поруч із головними туристичними об’єктами та торговими центрами. Готель оснащений фітнес-залом, конференц-залом для бізнес-зустрічей та рестораном з традиційною українською кухнею.",
+      "rating": 8.5,
+      "images": [
+        "https://lh5.googleusercontent.com/p/AF1QipNygjlMVXqYGklU4eRHOFfEteSv58qCXfdl-QFW=w600-h650-p-k-no",
+        "https://lh5.googleusercontent.com/p/AF1QipO4xi74sjc50gw5QU8kPHKQ8HR_qNhjRJ3g8g_3=w600-h650-p-k-no"
+      ],
+      "phone": "+380987654321",
+      "mail": "info@emigrand-hotel.ua",
+      "location": "вул. Петефі, 23"
+    },
+    {
+      "title": "Готель «Атлант»",
+      "description": "Сучасний готель з усіма зручностями.",
+      "long_description": "Готель «Атлант» пропонує стильні та просторі номери з усіма зручностями. Знаходиться поблизу історичного центру Ужгорода, що робить його ідеальним вибором для туристів. У готелі є кафе, бізнес-зал та Wi-Fi на всій території.",
+      "rating": 8.7,
+      "images": [
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/139956023.jpg?k=cfff963cdcc83583e3656b5848c1626529425b158767703807541507762c51b6&o=&hp=1",
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/139955977.jpg?k=1f6dbcab8b40c61cf823d13d2d83c81c32311f9842614e797a8a5c15156a0fa7&o=&hp=1",
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/323615237.jpg?k=a717296f12f767a702628dc09ab4fb095327dd2a7d8b0ae4d7b04e1fe48b018d&o=&hp=1"
+      ],
+      "phone": "+380931234567",
+      "mail": "reservations@atlant.ua",
+      "location": "пл. Народна, 1"
+    },
+    {
+      "title": "Готель «Олд Континент»",
+      "description": "П'ятизірковий готель з високим рівнем обслуговування.",
+      "long_description": "Розкішний готель, що розташований у самому центрі Ужгорода. Відомий своїм чудовим обслуговуванням і вишуканою атмосферою. Готель пропонує гостям ресторан, спа-послуги, а також конференц-зали для ділових подій.",
+      "rating": 9.4,
+      "images": [
+        "https://www.hotel-oldcontinent.com/wp-content/uploads/2023/10/444-scaled-1-934x1024.jpg",
+        "https://www.hotel-oldcontinent.com/wp-content/uploads/2023/10/IMG_7539-1024x576.jpg",
+        "https://www.hotel-oldcontinent.com/wp-content/uploads/2023/10/1%D0%B1%D0%B0%D1%80-%D0%BD%D0%B5%D0%B2-scaled-1-792x1024.jpg"
+      ],
+      "phone": "+380991112233",
+      "mail": "oldcontinent@hotel.ua",
+      "location": "вул. Капушанська, 2"
+    },
+    {
+      "title": "Готель «Інтурист Закарпаття»",
+      "description": "Популярний готель для туристів з басейном та сауною.",
+      "long_description": "Класичний готель для туристів і бізнесменів. Зручні номери з сучасним декором, басейн, сауна, а також ресторан із закарпатською кухнею.",
+      "rating": 8.0,
+      "images": [
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/49651910.jpg?k=fc6a32d6defbc94524a92f9614fe5cbb8da6f716f2eaefa75028bdf8a967593e&o=&hp=1",
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/300729166.jpg?k=4438562ccb9305e949db0f4a5e18e2e5aafdb40838e4f42dffe877e3f207c07a&o=&hp=1"
+      ],
+      "phone": "+380506789012",
+      "mail": "contact@inturist.ua",
+      "location": "просп. Свободи, 45"
+    },
+    {
+      "title": "Готель «Дует»",
+      "description": "Готель з домашньою атмосферою та доступними цінами.",
+      "long_description": "Готель «Дует» відомий своїм теплим прийомом та комфортом. Пропонує різноманітні номери, де кожен гість відчує себе як вдома. Чудове розташування для прогулянок містом.",
+      "rating": 8.1,
+      "images": [
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/5589017.jpg?k=bbda5917aa805fdf042a0d676e8c9e759920cc3b5054de55c40c9134ebea961f&o=&hp=1",
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/5589029.jpg?k=21d47b3e2847ba95490a65dbb2f88133922b0521efe23c44eb8f9573edd6e8bd&o=&hp=1"
+      ],
+      "phone": "+380994556667",
+      "mail": "duet@hotel.ua",
+      "location": "вул. Легоцького, 35"
+    },
+    {
+      "title": "Готель «Турист»",
+      "description": "Затишний готель для бюджетного відпочинку.",
+      "long_description": "Простий і недорогий готель для тих, хто шукає зручне розташування без зайвих витрат. Знаходиться недалеко від центру та туристичних об’єктів.",
+      "rating": 7.6,
+      "images": [
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/49651910.jpg?k=fc6a32d6defbc94524a92f9614fe5cbb8da6f716f2eaefa75028bdf8a967593e&o=&hp=1",
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/300729166.jpg?k=4438562ccb9305e949db0f4a5e18e2e5aafdb40838e4f42dffe877e3f207c07a&o=&hp=1"
+      ],
+      "phone": "+380678899334",
+      "mail": "tourist@hotel.ua",
+      "location": "вул. Минайська, 15"
+    },
+    {
+      "title": "Готель «Смарт Отель»",
+      "description": "Сучасний смарт-готель з інноваційними рішеннями.",
+      "long_description": "Ідеальне поєднання технологій та комфорту. У готелі є все необхідне для цифрових мандрівників. Кімнати оснащені сучасною технікою для максимальної зручності.",
+      "rating": 8.9,
+      "images": [
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/402735227.jpg?k=dad9485553a16ae29a9577cdc8fa99738add9723767948539d5e2f7055722a3a&o=&hp=1",
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/387904906.jpg?k=34b65416eece57de1ba7238daa74e08ca417cbb4bde86fd00725a19f2bab46c1&o=&hp=1"
+      ],
+      "phone": "+380504556677",
+      "mail": "smart@hotel.ua",
+      "location": "вул. Слов'янська, 21"
+    },
+    {
+      "title": "Готель «Галант»",
+      "description": "Затишний готель з високим рівнем обслуговування.",
+      "long_description": "Готель «Галант» розташований неподалік від центру міста і пропонує своїм гостям комфортабельні номери, ресторан та банкетний зал. Це чудовий вибір для тих, хто шукає якісне обслуговування за розумну ціну.",
+      "rating": 8.3,
+      "images": [
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/403753628.jpg?k=b39ee6309acebce3b6112b5de5b08dda6b73a2696d310eb15924d46a9fff3d95&o=&hp=1",
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/403753645.jpg?k=1ff731ffddbd4b8077545db2377863edbab1980dc91a96ad0a666ecde0499b9e&o=&hp=1"
+      ],
+      "phone": "+380987654310",
+      "mail": "contact@galant-hotel.ua",
+      "location": "вул. Собранецька, 13"
+    },
+    {
+      "title": "Готель «Чарда»",
+      "description": "Готель з автентичним закарпатським стилем.",
+      "long_description": "Готель «Чарда» відомий своїм закарпатським стилем, який прослідковується в інтер’єрах та обслуговуванні. Ресторан готелю пропонує страви місцевої кухні, а кімнати оформлені у традиційному стилі, забезпечуючи гостям унікальний досвід.",
+      "rating": 8.5,
+      "images": [
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/51721672.jpg?k=bdf7eb0d545f724d79225ff31845df497a980a3ef80a5abe0426d6a8e27276e6&o=&hp=1",
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/482796874.jpg?k=dfc2a636298f23df372216c206e9441ac76b3996a20a9da7c75ecf33e8617981&o=&hp=1"
+      ],
+      "phone": "+380505678123",
+      "mail": "info@charda.ua",
+      "location": "вул. Головна, 32"
+    },
+    {
+      "title": "Готель «Аристократ»",
+      "description": "Стильний готель з елегантними інтер'єрами.",
+      "long_description": "Готель «Аристократ» пропонує номери преміум-класу з елегантним дизайном. Вдале розташування поблизу історичних пам'яток та можливість насолодитися вечорами у ресторані з живою музикою створює приємну атмосферу для гостей.",
+      "rating": 9.0,
+      "images": [
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/80250882.jpg?k=ba3c33f5ea6980595bece05ed45f0945e9b67d081e8af4400c45ab0fa10daf7b&o=&hp=1",
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/62611622.jpg?k=26a358f5764ecc43fe34515f8926d79eda0d27269a0d25e857b6435ca4b5dd42&o=&hp=1"
+      ],
+      "phone": "+380987654322",
+      "mail": "aristocrat@hotel.ua",
+      "location": "вул. Легоцького, 25"
+    },
+    {
+      "title": "Готель «Панорама»",
+      "description": "Готель з видом на річку та панорамними номерами.",
+      "long_description": "Готель «Панорама» розташований на березі річки Уж і пропонує гостям номери з великими вікнами та чудовим видом на місто. Ідеальний вибір для тих, хто цінує природу та комфорт.",
+      "rating": 8.8,
+      "images": [
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/28657971.jpg?k=4b48c1a8c3810a5618d2e9409b1452dc3fc53275a7ae88a9d78846b3dd3a5db4&o=&hp=1",
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/28594715.jpg?k=2c180430507117a5db6c70dd82560c9f11d3831484e6db1734d6211241cebf02&o=&hp=1"
+      ],
+      "phone": "+380506789555",
+      "mail": "panorama@hotel.ua",
+      "location": "вул. Підгірна, 1"
+    },
+    {
+      "title": "Готель «Верховина»",
+      "description": "Готель з видом на гори для поціновувачів природи.",
+      "long_description": "Готель «Верховина» ідеально підійде для тих, хто бажає насолодитися красою Карпатських гір. Пропонує затишні номери з балконами та смачну традиційну закарпатську кухню.",
+      "rating": 9.1,
+      "images": [
+        "https://verkhovyna-resort.com/wp-content/uploads/2021/02/img_3728_original.jpg",
+        "https://verkhovyna-resort.com/wp-content/uploads/2021/02/dsc_3699-1-1024x684.jpg"
+      ],
+      "phone": "+380934567891",
+      "mail": "verhovyna@hotel.ua",
+      "location": "вул. Карпатська, 9"
+    },
+    {
+      "title": "Готель «Фортуна»",
+      "description": "Недорогий готель з домашнім затишком.",
+      "long_description": "Готель «Фортуна» пропонує гостям затишні номери з доступними цінами. Гостям доступні безкоштовний Wi-Fi, сніданок та привітне обслуговування. Ідеальний варіант для туристів з обмеженим бюджетом.",
+      "rating": 7.9,
+      "images": [
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/133330475.jpg?k=dcdd965becd607cd28204e4b4c63855596bc05b5ed31ac2edd7b8f751d24560e&o=&hp=1",
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/133333702.jpg?k=fe8074d240096019c8a8e602cfeef2b4617eebbde39b0af9204850eaad8e43ce&o=&hp=1"
+      ],
+      "phone": "+380678899122",
+      "mail": "info@fortuna-hotel.ua",
+      "location": "вул. Свободи, 19"
+    },
+    {
+      "title": "Готель «Ретро»",
+      "description": "Затишний готель з вінтажним стилем.",
+      "long_description": "Готель «Ретро» відомий своїм оригінальним стилем у дусі минулих століть. Інтер'єри оформлені у вінтажному стилі, що створює особливу атмосферу. У закладі є кафе з авторськими напоями.",
+      "rating": 8.2,
+      "images": [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/17/0c/7d/getlstd-property-photo.jpg?w=600&h=-1&s=1",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/19/87/13/getlstd-property-photo.jpg?w=1200&h=-1&s=1"
+      ],
+      "phone": "+380932345678",
+      "mail": "retro@hotel.ua",
+      "location": "вул. Залізнична, 4"
+    },
+    {
+      "title": "Готель «Лондон»",
+      "description": "Елегантний готель з класичним інтер’єром.",
+      "long_description": "Готель «Лондон» розташований у центрі Ужгорода, поєднує класичний стиль та сучасний комфорт. Гостям пропонуються елегантні номери, ресторан з міжнародною кухнею та зручне розташування біля основних туристичних місць.",
+      "rating": 8.6,
+      "images": [
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/606828513.jpg?k=8e4a48b203df97068cc0f523b6d059738828808ef040aca257dd085a712514f7&o=&hp=1",
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/595019666.jpg?k=3d24003de74a81d3dfb105ee985df1067271ef3fa128fa1f3c3ad0005b417899&o=&hp=1"
+      ],
+      "phone": "+380996543210",
+      "mail": "london@hotel.ua",
+      "location": "вул. Духновича, 11"
+    },
+    {
+      "title": "Готель «Скеля»",
+      "description": "Готель, розташований на схилі гори.",
+      "long_description": "Готель «Скеля» розташований на схилі гори з панорамними краєвидами, що відкриваються з кожної кімнати. Це місце для відпочинку серед природи, де можна насолодитися свіжим повітрям та чудовими видами на гори.",
+      "rating": 8.7,
+      "images": [
+        "https://static.tildacdn.com/tild6466-6438-4662-b461-353232636631/477A6771.jpg",
+        "https://static.tildacdn.com/tild3738-6466-4064-b237-383036333562/477A6700.jpg"
+      ],
+      "phone": "+380996789123",
+      "mail": "skelia@hotel.ua",
+      "location": "вул. Гірська, 27"
+    },
+    {
+      "title": "Готель «Карпати»",
+      "description": "Сучасний готель з чудовими умовами для відпочинку.",
+      "long_description": "Готель «Карпати» пропонує затишні номери, спа-зону, сауну та ресторани з європейською та закарпатською кухнею. Чудовий вибір для любителів природи та комфорту з мальовничими краєвидами на гори.",
+      "rating": 9.0,
+      "images": [
+        "https://karpaty-complex.com.ua/wp-content/uploads/2024/10/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82-09-10-2024-112219.jpg",
+        "https://karpaty-complex.com.ua/wp-content/uploads/2024/10/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82-09-10-2024-112041-300x200.jpg"
+      ],
+      "phone": "+380503213456",
+      "mail": "contact@karpaty-hotel.ua",
+      "location": "вул. Гірська, 18"
+    },
+    {
+      "title": "Готель «Геліос»",
+      "description": "Затишний готель з мінімалістичним стилем.",
+      "long_description": "Готель «Геліос» надає гостям світлі та просторі номери, оформлені в мінімалістичному стилі. Розташований у тихій частині міста, він забезпечує комфортний відпочинок для всіх мандрівників.",
+      "rating": 8.6,
+      "images": [
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/148745313.jpg?k=74a30533c52eed48e36c1d8435fe6d2e09a92860adaa2f1e83add3abd70efe34&o=&hp=1",
+        "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/307222573.jpg?k=190aa758ea30f01fcc6a3c89a5d064203b3a728439c8d6c6e626700b4db8641b&o=&hp=1"
+      ],
+      "phone": "+380987654321",
+      "mail": "info@helios.ua",
+      "location": "вул. Сонячна, 12"
+    },
+    {
+      "title": "Готель «Роял»",
+      "description": "Розкішний готель з панорамним рестораном.",
+      "long_description": "Готель «Роял» поєднує в собі елегантність та сучасний стиль. Гостям доступний панорамний ресторан з видом на місто, номери класу люкс та професійне обслуговування.",
+      "rating": "9.1",
+      "images": [
+        "https://belleroyalle.com/wp-content/uploads/2021/03/DSC_8137-scaled.jpg",
+        "https://belleroyalle.com/wp-content/uploads/2021/03/138-2-scaled.jpg"
+      ],
+      "phone": "+380936541230",
+      "mail": "contact@royal-hotel.ua",
+      "location": "вул. Панорамна, 12"
+    }
+  ]
+}
