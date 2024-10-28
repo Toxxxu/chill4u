@@ -1,14 +1,34 @@
 "use client";
 
 import React, { useState, use } from "react";
-import { Star, Wifi, Tv, Coffee, MapPin, ChevronLeft, ChevronRight } from 'lucide-react'
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Avatar, AvatarFallback } from "@/components/ui/avatar"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import {
+  Star,
+  Wifi,
+  Tv,
+  Coffee,
+  MapPin,
+  ChevronLeft,
+  ChevronRight,
+} from "lucide-react";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import places from "@/data/hotels.json";
 
 function Places({ params }: { params: Promise<{ id: string }> }) {
@@ -128,9 +148,12 @@ function Places({ params }: { params: Promise<{ id: string }> }) {
                 <TabsContent value="standard">
                   <div className="mt-4">
                     <h4 className="font-semibold mb-2">Стандартна кімната</h4>
-                    <p>Комфортна кімната з усіма необхідними зручностями. Ідеально підходить для самостійних мандрівників або пар.</p>
+                    <p>
+                      Комфортна кімната з усіма необхідними зручностями.
+                      Ідеально підходить для самостійних мандрівників або пар.
+                    </p>
                     <ul className="list-disc list-inside mt-2">
-                      <li>Ліжко "Queen-size"</li>
+                      <li>Ліжко &quot;Queen-size&quot;</li>
                       <li>32&#34; телевізор з плоским екраном</li>
                       <li>Ванна кімната з усіма зручностями</li>
                       <li>Міні-холодильник</li>
@@ -140,9 +163,13 @@ function Places({ params }: { params: Promise<{ id: string }> }) {
                 <TabsContent value="deluxe">
                   <div className="mt-4">
                     <h4 className="font-semibold mb-2">Люкс Кімната</h4>
-                    <p>Просторий люкс з окремою вітальнею і преміальними зручностями. Ідеально підходить для сімей або тривалого проживання.</p>
+                    <p>
+                      Просторий люкс з окремою вітальнею і преміальними
+                      зручностями. Ідеально підходить для сімей або тривалого
+                      проживання.
+                    </p>
                     <ul className="list-disc list-inside mt-2">
-                      <li>Ліжко "Queen-size"</li>
+                      <li>Ліжко &quot;Queen-size&quot;</li>
                       <li>55&#34; smart телевізор</li>
                       <li>Розкішна ванна кімната з ванною</li>
                       <li>Міні-кухня</li>
@@ -153,9 +180,14 @@ function Places({ params }: { params: Promise<{ id: string }> }) {
                 <TabsContent value="premium">
                   <div className="mt-4">
                     <h4 className="font-semibold mb-2">Преміум кімната</h4>
-                    <p>Найрозкішніші апартаменти з приголомшливим видом на океан та ексклюзивними привілеями.</p>
+                    <p>
+                      Найрозкішніші апартаменти з приголомшливим видом на океан
+                      та ексклюзивними привілеями.
+                    </p>
                     <ul className="list-disc list-inside mt-2">
-                      <li>Ліжко "King-size" з преміальною білизною</li>
+                      <li>
+                        Ліжко &quot;King-size&quot; з преміальною білизною
+                      </li>
                       <li>65&#34; OLED телевізор</li>
                       <li>Ванна кімната з джакузі</li>
                       <li>Повноцінна кухня</li>
@@ -174,20 +206,44 @@ function Places({ params }: { params: Promise<{ id: string }> }) {
             </CardHeader>
             <CardContent>
               {[
-                { name: "Alice Johnson", rating: 5, comment: "Все було чудово!" },
-                { name: "John Smith", rating: 4, comment: "Залишились тільки приємні враження" },
-                { name: "Emma Davis", rating: 5, comment: "Розташевання чудове" }
+                {
+                  name: "Alice Johnson",
+                  rating: 5,
+                  comment: "Все було чудово!",
+                },
+                {
+                  name: "John Smith",
+                  rating: 4,
+                  comment: "Залишились тільки приємні враження",
+                },
+                {
+                  name: "Emma Davis",
+                  rating: 5,
+                  comment: "Розташевання чудове",
+                },
               ].map((review, index) => (
                 <div key={index} className="mb-4 pb-4 border-b last:border-b-0">
                   <div className="flex items-center mb-2">
                     <Avatar className="w-10 h-10 mr-2">
-                      <AvatarFallback>{review.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
+                      <AvatarFallback>
+                        {review.name
+                          .split(" ")
+                          .map((n) => n[0])
+                          .join("")}
+                      </AvatarFallback>
                     </Avatar>
                     <div>
                       <p className="font-semibold">{review.name}</p>
                       <div className="flex">
                         {[1, 2, 3, 4, 5].map((star) => (
-                          <Star key={star} className={`w-4 h-4 ${star <= review.rating ? 'fill-primary text-primary' : 'text-muted'}`} />
+                          <Star
+                            key={star}
+                            className={`w-4 h-4 ${
+                              star <= review.rating
+                                ? "fill-primary text-primary"
+                                : "text-muted"
+                            }`}
+                          />
                         ))}
                       </div>
                     </div>
@@ -195,7 +251,9 @@ function Places({ params }: { params: Promise<{ id: string }> }) {
                   <p className="text-muted-foreground">{review.comment}</p>
                 </div>
               ))}
-              <Button variant="outline" className="w-full mt-4">Переглянути всі відгуки</Button>
+              <Button variant="outline" className="w-full mt-4">
+                Переглянути всі відгуки
+              </Button>
             </CardContent>
           </Card>
         </div>
@@ -237,7 +295,9 @@ function Places({ params }: { params: Promise<{ id: string }> }) {
                         <SelectValue placeholder="Select" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="standard">Стандартна Кімната</SelectItem>
+                        <SelectItem value="standard">
+                          Стандартна Кімната
+                        </SelectItem>
                         <SelectItem value="deluxe">Люкс Кімната</SelectItem>
                         <SelectItem value="premium">Преміум Кімната</SelectItem>
                       </SelectContent>
@@ -255,7 +315,7 @@ function Places({ params }: { params: Promise<{ id: string }> }) {
             </CardFooter>
           </Card>
         </div>
-        </div>
+      </div>
     </div>
   );
 }
