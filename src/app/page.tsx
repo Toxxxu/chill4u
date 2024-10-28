@@ -1,17 +1,19 @@
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import React from "react";
 
 export default function Home() {
   return (
     <main className="flex-1">
       <section
-        className="w-full h-screen py-12 md:py-24 lg:py-32 xl:py-48 bg-cover bg-center bg-opacity-50"
+        className="w-full h-screen py-12 md:py-24 lg:py-32 xl:py-48 bg-cover bg-center relative"
         style={{
           backgroundImage:
             'url("https://images.pexels.com/photos/1386110/pexels-photo-1386110.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")',
         }}
       >
-        <div className="container px-4 md:px-6">
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="relative container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-white">
@@ -52,7 +54,7 @@ export default function Home() {
                 key={destination.name}
                 className="relative group overflow-hidden rounded-lg"
               >
-                <img
+                <Image
                   alt={`${destination.name} cityscape`}
                   className="object-cover w-full h-60 transition-transform group-hover:scale-110"
                   height="400"
